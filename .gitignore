@@ -1,0 +1,12 @@
+# Nao adicionar terminacoes
+*.sqlite3
+*.vscode
+
+# NAO adicionar pastas em qualquer lugar
+**__pycache__
+**material
+
+
+# Nao adicionar arquivos de configuracao
+*.DS_Store
+
