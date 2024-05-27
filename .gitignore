@@ -10,3 +10,7 @@
 # Nao adicionar arquivos de configuracao
 *.DS_Store
 
+
+# NAO adicionar especifios
+
+comandos.txt
