@@ -1,0 +1,65 @@
+git config user.name "[name]"
+git config user.email "***@mail.com"
+
+git log --oneline
+
+git checkout [number]
+
+git diff --staged
+
+git diff [number]
+
+git diff [number-old]..[number-new]
+
+
+## Corrigindo um comentario no commit 
+git commit --amend -m "[new-text]"
+
+
+## Voltando um unico arquivo
+git checkout [name]
+
+
+## Voltando mais de um arquivo
+git reset HEAD --hard
+
+
+## Voltar para o ultimo commit
+git reset HEAD^ --hard
+
+
+## Checar em qual Branch estamos
+git Branch
+
+
+## Criando uma nova Branch
+git branch [name]
+
+
+## Mudando de Branch
+git checkout [other-branch-name]
+
+
+## Mudando o nome de uma branch
+git branch [name-old] [name-new]
+
+
+## Deletando uma branch
+git branch -d [name]
+
+git branch -D [name]  # FORCE
+
+
+## Mergeando branches current-branch <- other-branch
+git merge [other-branch-name]
+
+
+## Criando uma nova branch e ja mudando para ela
+git checkout -b [new-branch-name]
+
+
+## Criando tags
+git tag [name]
+
+## Pushing a tag
+git push origin [name]
